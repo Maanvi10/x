@@ -1,0 +1,53 @@
+#welcome{
+  text-align:center;
+  color: violet;
+  background: linear-gradient(pink 0%, purple 100%);
+}
+.menu {
+    list-style: none;
+    top: 10px;
+    right: 40px;
+    z-index: 10;
+    position: absolute;
+    cursor: pointer;
+}
+
+.lists {
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: floralwhite;
+}
+
+.lists:hover {
+    background-color: aquamarine;
+}
+
+img{
+    width: 300px;
+        height: 300px;
+    transition: transform .2s;
+    
+}
+img:hover{
+    transform:scale(2);
+}
+
+
+
+
+.picture{
+  height: 200px;
+  border-radius: 50%;
+}
+img{
+    transition: transform .2s;
+    
+}
+img:hover{
+    transform:scale(2);
+}
